@@ -32,7 +32,7 @@ def generate_html(cities_data_list):
             card = f"""
                 <div class="weather-card">
                     <div class="city">{city['location']['name']}</div>
-                    <div class="temp">{city['current']['temp_c']}</div>
+                    <div class="temp">{city['current']['temp_c']}°C</div>
                     <div class="condition">{city['current']['condition']['text']}</div>
                     <div class="last_updated">{city['current']['last_updated']}</div>
                 </div>
